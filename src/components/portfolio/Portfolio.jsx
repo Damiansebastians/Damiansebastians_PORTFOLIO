@@ -1,5 +1,5 @@
 import React from 'react';
-import IMG1 from '../../assets/bookstore.png';
+import IMG1 from '../../assets/PhotoApp.png';
 import IMG2 from '../../assets/todo.png';
 import IMG3 from '../../assets/shelter.png';
 import IMG4 from '../../assets/fake.png';
@@ -12,13 +12,13 @@ const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
-      title: 'Bookstore',
+      title: 'PhotoReaction',
       img: IMG1,
       description:
-        'BookStore app that allows users to store books and update progress',
-      technologies: 'React | Redux | Ruby on Rails',
-      link: 'https://melodic-boba-111583.netlify.app/',
-      github: 'https://github.com/Meri-MG/bookstore---react',
+        'App that finds and saves photos with the Unsplash api',
+      technologies: 'React | Redux | Api',
+      link: 'https://damiansebastians.github.io/photoreaction/',
+      github: 'https://github.com/Damiansebastians/PhotoReactionAPP_REACT',
     },
     {
       id: 2,
