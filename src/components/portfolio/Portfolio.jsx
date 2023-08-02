@@ -1,5 +1,5 @@
 import React from 'react';
-import IMG1 from '../../assets/PhotoApp.png';
+import IMG1 from '../../assets/PhotoApp1.png';
 import IMG2 from '../../assets/todo.png';
 import IMG3 from '../../assets/shop.png';
 import IMG4 from '../../assets/fake.png';

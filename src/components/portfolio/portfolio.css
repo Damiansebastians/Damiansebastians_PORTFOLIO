@@ -20,7 +20,7 @@
 .portfolio__item-image {
     border-radius: 1.5rem;
     overflow: hidden;
-    height: 30%;
+    height: 40%;
 }
 
 .portfolio__item h3 {
@@ -29,7 +29,7 @@
 
 .portfolio__item p {
     margin: 0 0 1.2rem 0;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .portfolio__item-cta {
@@ -39,7 +39,7 @@
 }
 
 .portfolio__item-content {
-    height: 50%;
+    height: 45%;
 }
 
 @media screen and (max-width: 1024px){
