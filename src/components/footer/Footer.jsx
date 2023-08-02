@@ -1,7 +1,7 @@
 import React from 'react';
 import { BsLinkedin } from 'react-icons/bs';
 import { FaGithub } from 'react-icons/fa';
-import { FaAngellist } from 'react-icons/fa'
+import { CgDesktop } from 'react-icons/cg'
 import './footer.css';
 
 const Footer = () => {
@@ -25,7 +25,7 @@ const Footer = () => {
       <div className="footer__socials">
       <a href="https://www.linkedin.com/in/damian-sebastian-silvera-collazo-/" target="_blank" rel="noreferrer" ><BsLinkedin /></a>
       <a href="https://github.com/Damiansebastians" target="_blank" rel="noreferrer" ><FaGithub /></a>
-      <a href="http://damiasebastians.es/" target="_blank" rel="noreferrer" ><FaAngellist /></a>
+      <a href="http://damiasebastians.es/" target="_blank" rel="noreferrer" ><CgDesktop /></a>
       </div>
       <div className="footer__copyright">
         <small>&copy; Damian Silvera {getYear()}. All rights reserved.</small>
