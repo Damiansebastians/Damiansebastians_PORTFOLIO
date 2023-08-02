@@ -1,7 +1,7 @@
 import React from 'react';
 import IMG1 from '../../assets/PhotoApp.png';
 import IMG2 from '../../assets/todo.png';
-import IMG3 from '../../assets/shelter.png';
+import IMG3 from '../../assets/shop.png';
 import IMG4 from '../../assets/fake.png';
 import IMG5 from '../../assets/news.png';
 import IMG6 from '../../assets/math.png';
@@ -22,13 +22,13 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      title: 'FakeStore',
+      title: 'Hotel Miranda DASHBOARD',
       img: IMG4,
       description:
-        'FakeStore app that provides information about available products and their details',
-      technologies: 'React | Redux',
-      link: 'https://fakestore-metrics.netlify.app/',
-      github: 'https://github.com/Meri-MG/Fakestore---react',
+        'Miranda Hotel dashboard, project to manage rooms, bookings, users and contacts',
+      technologies: 'React | TypeScript | Redux | Cypress | Jest',
+      link: 'https://damiansebastians.github.io/Hotel_Miranda_React_DASHBOARD/',
+      github: 'https://github.com/Damiansebastians/Hotel_Miranda_React_DASHBOARD',
     },
     {
       id: 3,
@@ -41,13 +41,13 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      title: 'Shelter',
+      title: 'OXYGEN Shop',
       img: IMG3,
       description:
         'Fully responsive interactive website built based on Figma design',
-      technologies: 'JavaScript | CSS',
-      link: 'https://meri-mg.github.io/shelter/pages/main/index.html',
-      github: 'https://github.com/Meri-MG/shelter',
+      technologies: 'JavaScript | CSS | Sass',
+      link: 'https://damiansebastians.github.io/OXYGENShop-Project/',
+      github: 'https://github.com/Damiansebastians/OXYGENShop-Project',
     },
     {
       id: 5,
