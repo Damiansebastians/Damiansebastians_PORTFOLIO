@@ -38,6 +38,7 @@ body {
   background-color: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
+  font-size: 18px;
   background-image: url(../src/assets/bg-texture.png);
 }
 
