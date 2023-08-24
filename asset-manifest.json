@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Damiansebastians_PORTFOLIO/static/css/main.eddcb3a4.css",
+    "main.js": "/Damiansebastians_PORTFOLIO/static/js/main.6307fc5e.js",
+    "static/media/Me_intro.jpg": "/Damiansebastians_PORTFOLIO/static/media/Me_intro.58089535b916b3c5c26b.jpg",
+    "static/media/PhotoApp1.png": "/Damiansebastians_PORTFOLIO/static/media/PhotoApp1.a24d9461dbdc4c86d2d1.png",
+    "static/media/shop.png": "/Damiansebastians_PORTFOLIO/static/media/shop.bf53c2a8b7624c562de2.png",
+    "static/media/papeleria_project.jpg": "/Damiansebastians_PORTFOLIO/static/media/papeleria_project.931e1671a201f43f19ab.jpg",
+    "static/media/hotel_banner.jpg": "/Damiansebastians_PORTFOLIO/static/media/hotel_banner.6f325862d02e4ae5f017.jpg",
+    "static/media/cozy_project.jpg": "/Damiansebastians_PORTFOLIO/static/media/cozy_project.6626e1d78b7b7f80bc49.jpg",
+    "static/media/dashboard_project.jpg": "/Damiansebastians_PORTFOLIO/static/media/dashboard_project.f1bc276af4eafd33ae8f.jpg",
+    "static/media/DamianSilvera_CV.pdf": "/Damiansebastians_PORTFOLIO/static/media/DamianSilvera_CV.82bf475536273e564d01.pdf",
+    "index.html": "/Damiansebastians_PORTFOLIO/index.html",
+    "main.eddcb3a4.css.map": "/Damiansebastians_PORTFOLIO/static/css/main.eddcb3a4.css.map",
+    "main.6307fc5e.js.map": "/Damiansebastians_PORTFOLIO/static/js/main.6307fc5e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eddcb3a4.css",
+    "static/js/main.6307fc5e.js"
+  ]
+}
