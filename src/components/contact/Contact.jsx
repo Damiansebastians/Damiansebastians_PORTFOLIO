@@ -11,10 +11,10 @@ const Contact = () => {
     setMessage(true);
     emailjs
       .sendForm(
-        'service_k2qawqh',
-        'template_c6rkpn6',
+        'service_79sbr3h',
+        'template_b23ox4g',
         formRef.current,
-        'X7K7ebhIeOy3YwHki'
+        'r35eKkiUbs3Joufng'
       )
       .then(
         (result) => {
@@ -29,11 +29,7 @@ const Contact = () => {
   };
   return (
     <section id="contact">
-      <h5>Get In Touch</h5>
-      <h5>
-        I do receive your messages and will respond asap if the valid email is
-        provided :)
-      </h5>
+      <h4>Get In Touch</h4>
       <h2>Contact Me</h2>
       <div className="container contact__container">
         <div className="contact__options">
