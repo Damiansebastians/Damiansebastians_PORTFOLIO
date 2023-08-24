@@ -1,14 +1,14 @@
 .about__container {
     display: grid;
-    grid-template-columns: 35% 50%;
-    gap: 15%;
+    grid-template-columns: 25% 65%;
+    gap: 10%;
 }
 
 .about__me {
+    padding-top: 100px;
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     display: grid;
     place-items: center;
 }
@@ -16,12 +16,12 @@
 .about__me-image {
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(10deg);
-    transition: var(--transition);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .about__me-image:hover {
-    transform: rotate(0);
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.52);
 }
 
 .about__cards {
@@ -52,11 +52,11 @@
 }
 
 .about__card h5 {
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .about__card small {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     color: var(--color-light);
 }
 
