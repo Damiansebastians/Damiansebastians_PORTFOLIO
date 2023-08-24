@@ -1,79 +1,79 @@
-import React from 'react';
-import IMG1 from '../../assets/PhotoApp1.png';
-import IMG2 from '../../assets/hotel_banner.jpg';
-import IMG3 from '../../assets/shop.png';
-import IMG4 from '../../assets/fake.png';
-import IMG5 from '../../assets/news.png';
-import IMG6 from '../../assets/math.png';
+import React from "react";
+import IMG1 from "../../assets/PhotoApp1.png";
+import IMG2 from "../../assets/hotel_banner.jpg";
+import IMG3 from "../../assets/shop.png";
+import IMG4 from "../../assets//dashboard_project.jpg";
+import IMG5 from "../../assets/cozy_project.jpg";
+import IMG6 from "../../assets/papeleria_project.jpg";
 
-import './portfolio.css';
+import "./portfolio.css";
 
 const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
-      title: 'Hotel Miranda - WEBSITE',
+      title: "Hotel Miranda - WEBSITE",
       img: IMG2,
-      description: 'Provides information on services offered, rooms and amenities Allows reservations and contact customer service.',
-      technologies: 'HTML | CSS | Sass | JavaScript',
-      link: 'https://damiansebastians.github.io/Hotel_Miranda_FRONTEND/',
-      github: 'https://github.com/Damiansebastians/Hotel_Miranda_FRONTEND',
+      description:
+        "Provides information on services offered, rooms and amenities Allows reservations and contact customer service.",
+      technologies: "HTML | CSS | Sass | JavaScript",
+      link: "https://damiansebastians.github.io/Hotel_Miranda_FRONTEND/",
+      github: "https://github.com/Damiansebastians/Hotel_Miranda_FRONTEND",
     },
     {
       id: 2,
-      title: 'PhotoReaction',
+      title: "PhotoReaction - Photo APP",
       img: IMG1,
-      description:
-        'App that finds and saves photos with the Unsplash api',
-      technologies: 'React | Redux | Api',
-      link: 'https://damiansebastians.github.io/photoreaction/',
-      github: 'https://github.com/Damiansebastians/PhotoReactionAPP_REACT',
+      description: "App that finds and saves photos with the Unsplash api",
+      technologies: "React | Redux | Api",
+      link: "https://damiansebastians.github.io/photoreaction/",
+      github: "https://github.com/Damiansebastians/PhotoReactionAPP_REACT",
     },
     {
       id: 3,
-      title: 'Hotel Miranda DASHBOARD',
+      title: "Hotel Miranda - DASHBOARD",
       img: IMG4,
       description:
-        'Miranda Hotel dashboard, project to manage rooms, bookings, users and contacts',
-      technologies: 'React | TypeScript | Redux | Cypress | Jest',
-      link: 'https://damiansebastians.github.io/Hotel_Miranda_React_DASHBOARD/',
-      github: 'https://github.com/Damiansebastians/Hotel_Miranda_React_DASHBOARD',
+        "Miranda Hotel dashboard, project to manage rooms, bookings, users and contacts",
+      technologies: "React | TypeScript | Redux | Cypress | Jest",
+      link: "https://damiansebastians.github.io/Hotel_Miranda_React_DASHBOARD/",
+      github:
+        "https://github.com/Damiansebastians/Hotel_Miranda_React_DASHBOARD",
     },
     {
       id: 4,
-      title: 'OXYGEN Shop',
+      title: "OXYGEN Shop",
       img: IMG3,
       description:
-        'Fully responsive interactive website built based on Figma design',
-      technologies: 'JavaScript | CSS | Sass',
-      link: 'https://damiansebastians.github.io/OXYGENShop-Project/',
-      github: 'https://github.com/Damiansebastians/OXYGENShop-Project',
+        "Fully responsive interactive website built based on Figma design",
+      technologies: "JavaScript | CSS | Sass",
+      link: "https://damiansebastians.github.io/OXYGENShop-Project/",
+      github: "https://github.com/Damiansebastians/OXYGENShop-Project",
     },
     {
       id: 5,
-      title: 'World News',
+      title: "Template - TeaCozy",
       img: IMG5,
-      description:
-        'Fully responsive interactive website built based on Adobe XD design',
-      technologies: 'JavaScript | CSS',
-      link: 'https://meri-mg.github.io/Unilab-world-news/',
-      github: 'https://github.com/Meri-MG/Unilab-world-news',
+      description: "Responsive website built based on a Figma design",
+      technologies: "HTML | CSS | Figma",
+      link: "https://damiansebastians.github.io/Template-TeaCozy/",
+      github: "https://github.com/Damiansebastians/Template-TeaCozy",
     },
     {
       id: 6,
-      title: 'Math Resource',
+      title: "School Stationery - Store",
       img: IMG6,
       description:
-        'Real-world group project which is still in progress and will provide educational platform for future young developers',
-      technologies: 'JavaScript | Scss | Python',
-      link: 'https://lukinoo.github.io/math-resource/',
-      github: 'https://github.com/lukinoo/math-resource',
+        "It's a stationery store that makes requests to a database, uses queries and modifications to different tables, and displays its results to the user.",
+      technologies: "PHP | SQL | JavaScript | Bootstrap",
+      link: "https://damiansebastians.github.io/Proyecto-Papeleria/",
+      github: "https://github.com/Damiansebastians/Proyecto-Papeleria",
     },
   ];
 
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
+      <h4>My Recent Works</h4>
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
