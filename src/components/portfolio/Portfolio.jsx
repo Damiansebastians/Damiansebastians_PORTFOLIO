@@ -1,6 +1,6 @@
 import React from 'react';
 import IMG1 from '../../assets/PhotoApp1.png';
-import IMG2 from '../../assets/todo.png';
+import IMG2 from '../../assets/hotel_banner.jpg';
 import IMG3 from '../../assets/shop.png';
 import IMG4 from '../../assets/fake.png';
 import IMG5 from '../../assets/news.png';
@@ -12,6 +12,15 @@ const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
+      title: 'Hotel Miranda - WEBSITE',
+      img: IMG2,
+      description: 'Provides information on services offered, rooms and amenities Allows reservations and contact customer service.',
+      technologies: 'HTML | CSS | Sass | JavaScript',
+      link: 'https://damiansebastians.github.io/Hotel_Miranda_FRONTEND/',
+      github: 'https://github.com/Damiansebastians/Hotel_Miranda_FRONTEND',
+    },
+    {
+      id: 2,
       title: 'PhotoReaction',
       img: IMG1,
       description:
@@ -21,7 +30,7 @@ const Portfolio = () => {
       github: 'https://github.com/Damiansebastians/PhotoReactionAPP_REACT',
     },
     {
-      id: 2,
+      id: 3,
       title: 'Hotel Miranda DASHBOARD',
       img: IMG4,
       description:
@@ -29,15 +38,6 @@ const Portfolio = () => {
       technologies: 'React | TypeScript | Redux | Cypress | Jest',
       link: 'https://damiansebastians.github.io/Hotel_Miranda_React_DASHBOARD/',
       github: 'https://github.com/Damiansebastians/Hotel_Miranda_React_DASHBOARD',
-    },
-    {
-      id: 3,
-      title: 'To-Do-App',
-      img: IMG2,
-      description: 'User friendly app to plan your day and manage tasks',
-      technologies: 'JavaScript | Webpack',
-      link: 'https://meri-mg.github.io/To-Do-List/dist/',
-      github: 'https://github.com/Meri-MG/To-Do-List',
     },
     {
       id: 4,

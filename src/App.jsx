@@ -7,7 +7,6 @@ import Intro from './components/intro/Intro';
 import Portfolio from './components/portfolio/Portfolio';
 import Topbar from './components/topbar/Topbar';
 
-
 const App = () => {
   return (
     <>
