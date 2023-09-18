@@ -20,7 +20,7 @@ const HeaderSocials = () => {
       >
         <FaGithub style={{ fontSize: "26px" }} />
       </a>
-      <a href="http://damiasebastians.es/" target="_blank" rel="noreferrer">
+      <a href="http://portfolio-reactjs.s3-website.eu-west-3.amazonaws.com/" target="_blank" rel="noreferrer">
         <FaGlobe style={{ fontSize: "26px" }} />
       </a>
     </div>
