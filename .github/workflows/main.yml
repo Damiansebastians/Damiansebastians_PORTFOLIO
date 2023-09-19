@@ -1,5 +1,4 @@
 name: deploy-aws
-description: "Sync a directory to an AWS S3 repository"
 
 on:
   push:
